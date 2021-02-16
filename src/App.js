@@ -30,27 +30,27 @@ class App extends Component {
         <div className="section--header">
           <Header />
         </div>
-        <hr className="line-section" />
-        <div className="section section--about_me">
+        <hr className="line-section" id="about-line"/>
+        <div className="section section--about_me" id="about">
           <About />
         </div>
-        <hr className="line-section" />
-        <div className="section section--education">
+        <hr className="line-section" id="education-line"/>
+        <div className="section section--education" id="education">
           <Education />
         </div>
-        <hr className="line-section" />
-        <div className="section section--skills">
+        <hr className="line-section" id="skills-line"/>
+        <div className="section section--skills" id="skills">
           <Skills />
         </div>
-        <hr className="line-section" />
-        <div className="section section--websites">
+        <hr className="line-section" id="projects-line"/>
+        <div className="section section--websites" id="projects">
           <Explore />
         </div>
-        <hr className="line-section" />
-        <div className="section section--contact">
+        <hr className="line-section" id="contact-line"/>
+        <div className="section section--contact" id="contact">
           <Contact />
         </div>
-        <DropdownMenu className={this.state.btnFlage ? "open" : "close"} />
+        <DropdownMenu class={this.state.btnFlage ? "open" : "close"} onClickMenuButton={this.onClickMenuButton}/>
         <Hamburger
           onClickMenuButton={this.onClickMenuButton}
           class={this.state.btnFlage ? "X" : "G"}
