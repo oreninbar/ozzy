@@ -1,5 +1,6 @@
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -28,10 +29,10 @@ body {
 
 .main-container {
   width: 100vw;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   background-color: rgba(243, 243, 243, 0.521);
 }
 
@@ -47,7 +48,7 @@ body {
 .section{
   margin-top: 10rem;
   margin-bottom: 10rem;
-  width: 90vw;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
