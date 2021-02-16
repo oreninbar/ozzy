@@ -46,14 +46,14 @@ class App extends Component {
         <div className="section section--websites" id="projects">
           <Explore />
         </div>
-        <hr className="line-section" id="contact-line"/>
+        {/* <hr className="line-section" id="contact-line"/> */}
         <div className="section section--contact" id="contact">
           <Contact />
         </div>
         <DropdownMenu class={this.state.btnFlage ? "open" : "close"} onClickMenuButton={this.onClickMenuButton}/>
         <Hamburger
           onClickMenuButton={this.onClickMenuButton}
-          class={this.state.btnFlage ? "X" : "G"}
+          className={this.state.btnFlage ? "X" : "G"}
         />
       </div>
     );

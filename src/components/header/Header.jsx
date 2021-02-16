@@ -8,7 +8,7 @@ class Header extends Component {
         <div className="header-primary">
           <div className="header_heading--main">ozzy</div>
           <div className="header_heading--sub">Where websites happens</div>
-          <a href="#" className="btn btn--white">
+          <a href="#projects-line" className="btn btn--white">
             discover our websites
           </a>
         </div>

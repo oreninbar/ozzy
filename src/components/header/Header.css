@@ -133,7 +133,6 @@
 }
 
 .btn:hover::after {
-  /* transform: scale(1.3); */
   transform: scaleY(1.4) scaleX(1.2);
   opacity: 0;
 }

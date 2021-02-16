@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from 'react-scroll';
 import "./Menu.css";
 
 class DropdownMenu extends Component {
@@ -8,41 +9,41 @@ class DropdownMenu extends Component {
   render() {
     return (
       <div className={`dropdown-menu-container ${this.props.class}`}>
-        <a
-          href="#about-line"
+        <Link
+          to="about-line"
           className="about dropdown-menu_categoty"
           onClick={this.close}
         >
           About
-        </a>
-        <a
-          href="#education-line"
+        </Link>
+        <Link
+          to="education-line"
           className="education dropdown-menu_categoty"
           onClick={this.close}
         >
           Education
-        </a>
-        <a
-          href="#skills-line"
+        </Link>
+        <Link
+          to="skills-line"
           className="skills dropdown-menu_categoty"
           onClick={this.close}
         >
           Skills
-        </a>
-        <a
-          href="#projects-line"
+        </Link>
+        <Link
+          to="projects-line"
           className="protfolio dropdown-menu_categoty"
           onClick={this.close}
         >
           Projects
-        </a>
-        <a
-          href="#contact-line"
+        </Link>
+        <Link
+          to="contact"
           className="contact dropdown-menu_categoty"
           onClick={this.close}
         >
           Contact
-        </a>
+        </Link>
       </div>
     );
   }
