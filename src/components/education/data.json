@@ -1,0 +1,48 @@
+[
+    [
+        {
+            "img": "/img/elecation.png",
+            "title": "Elevation Academy, Full Stack Web Developer ",
+            "description": "Intensive 3 months Coding Bootcamp which covered the entire MERN stack. Built end-to-end projects from scratch adhering OOP, communicating external APIs.",
+            "link": "https://elevation.ac/wp-content/uploads/2020/12/Full-Stack-Bootcamp-Syllabuses.pdf",
+            "year": "2020"
+        },
+        {
+            "img": "",
+            "title": "HackerU, JAVA OOP, Android Development",
+            "description": "Learning advanced topics in java programming with java enterprise and android environments. ",
+            "link": "https://www.hackeru.co.il/course/applications",
+            "year": "2018"
+        },
+        {
+            "img": "",
+            "title": "B.Sc. Industrial Engineering and Management, Ben-Gurion University",
+            "description": "Courses: databases, Java OOP, data structures, complications. Final project: designing and develop virtual ecommerce shop for SMB.",
+            "link": "",
+            "year": "2011-2016 "
+        }
+    ],
+    [
+        {
+            "img": "",
+            "title": "Elevation Academy, Full Stack Web Developer ",
+            "description": "Intensive 3 months Coding Bootcamp which covered the entire MERN stack. Built end-to-end projects from scratch adhering OOP, communicating external APIs.",
+            "link": "https://elevation.ac/wp-content/uploads/2020/12/Full-Stack-Bootcamp-Syllabuses.pdf",
+            "year": "2020"
+        },
+        {
+            "img": "",
+            "title": "HackerU, JAVA OOP, Android Development",
+            "description": "Learning advanced topics in java programming with java enterprise and android environments. ",
+            "link": "https://www.hackeru.co.il/course/applications",
+            "year": "2018"
+        },
+        {
+            "img": "",
+            "title": "B.Sc. Industrial Engineering and Management, Ben-Gurion University",
+            "description": "Courses: databases, Java OOP, data structures, complications. Final project: designing and develop virtual ecommerce shop for SMB.",
+            "link": "",
+            "year": "2011-2016"
+        }
+    ]
+]

@@ -1,0 +1,167 @@
+
+html {
+  font-size: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.proj {
+  align-self: center;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  position: relative;
+  height: auto;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(20, 6.5rem);
+  grid-template-rows: repeat(8, 6.5rem);
+}
+
+.proj__brick {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  font-size: 1.5rem;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  perspective: 150rem;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+
+.proj__brick-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  transition: all 1s;
+}
+
+.proj__brick--front {
+
+  background-color: #37dceb;
+  font-size: 2rem;
+}
+
+.proj__brick--back {
+  transform: rotateY(180deg);
+  background-color: #0ad19f;
+}
+
+.proj__brick:hover .proj__brick--front {
+  transform: rotateY(180deg);
+}
+
+.proj__brick:hover .proj__brick--back {
+  transform: rotateY(0deg);
+}
+
+.proj .title {
+  position: relative;
+  grid-column: 9/21;
+  grid-row: 1/4;
+  justify-self: center;
+  text-align: center;
+  font-weight: 600;
+  height: 10rem;
+  width: 50rem;
+  font-size: 6rem;
+  font-family: "Montserrat", sans-serif;
+  margin: 2rem;
+  padding: 1rem;
+  background-image: linear-gradient(135deg, #37dceb, #104349, #25929e, #3d82b1);
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  border: 1px #000000;
+}
+
+.proj1 {
+  /* animation: appear-from-left1 0.5s running; */
+  grid-column: 1/6;
+  grid-row: 1/6;
+}
+
+.proj1 .proj__brick--front{
+  
+  background-image: url(../../img/crm.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+.proj2 {
+  grid-column: 1/6;
+  grid-row: 6/9;
+}
+
+.proj2 .proj__brick--front{
+  background-image: url(../../img/catch-the-frog_big.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.proj3 {
+  grid-column: 6/11;
+  grid-row: 4/9;
+}
+
+.proj3 .proj__brick--front{
+  background-image: url(../../img/hangman.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.proj4 {
+  grid-column: 16/21;
+  grid-row: 4/9;
+}
+
+.proj4 .proj__brick--front{
+  background-image: url(../../img/home.png);
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center;
+}
+
+.proj5 {
+  grid-column: 6/9;
+  grid-row: 1/4;
+}
+
+.proj5 .proj__brick--front{
+  background-image: url(../../img/tictactow.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  outline: 1px solid black;
+
+}
+
+.proj6 {
+  grid-column: 11/16;
+  grid-row: 4/9;
+}
+
+.proj6 .proj__brick--front{
+  background-image: url(../../img/ATM.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+

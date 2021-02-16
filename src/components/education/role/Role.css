@@ -1,0 +1,37 @@
+.role-container {
+  display: flex;
+  margin: 1rem;
+}
+
+.company-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 1rem;
+  height: 4rem;
+  width: 4rem;
+}
+
+.year {
+  display: inline;
+}
+
+.role__title {
+  display: inline-block;
+}
+.btn-description {
+  display: block;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.closee {
+  visibility: hidden;
+}
+
+.openn {
+  visibility: visible;
+  color: black;
+  border: 2px;
+}

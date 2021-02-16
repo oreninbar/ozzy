@@ -1,0 +1,26 @@
+.about-container {
+  position: relative;
+  display:inherit;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.about-content {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: rgb(156, 156, 156);
+  height: 40%;
+  width: 45%;
+}
+.img{
+  margin-left: 10rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  width:40rem;
+  background-image: url(../../img/Oz.png);
+}
