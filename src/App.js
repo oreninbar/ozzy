@@ -36,7 +36,7 @@ class App extends Component {
         </div>
         <hr className="line-section" id="education-line"/>
         <div className="section section--education" id="education">
-          <Education />
+          {/* <Education /> */}
         </div>
         <hr className="line-section" id="skills-line"/>
         <div className="section section--skills" id="skills">
@@ -53,7 +53,7 @@ class App extends Component {
         <DropdownMenu class={this.state.btnFlage ? "open" : "close"} onClickMenuButton={this.onClickMenuButton}/>
         <Hamburger
           onClickMenuButton={this.onClickMenuButton}
-          className={this.state.btnFlage ? "X" : "G"}
+          class={this.state.btnFlage ? "X" : "G"}
         />
       </div>
     );

@@ -1,11 +1,11 @@
 .dropdown-menu-container {
+  position: fixed;
+  display: flex;
   margin-top: 2rem;
-  display: none;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  position: fixed;
-  width: 95vw;
+  width: 95%;
   height: 80vh;
   background-color: #000;
   text-align: center;
@@ -20,6 +20,7 @@
   font-size: 5rem;
   color: white;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .dropdown-menu_categoty:hover {
@@ -36,7 +37,6 @@
 
 .dropdown-menu-container.close {
   display: none;
-  /* transition: all 2s ease-in-out; */
 }
 
 
