@@ -36,7 +36,7 @@ class App extends Component {
         </div>
         <hr className="line-section" id="education-line"/>
         <div className="section section--education" id="education">
-          <Education />
+          {/* <Education /> */}
         </div>
         <hr className="line-section" id="skills-line"/>
         <div className="section section--skills" id="skills">
@@ -46,7 +46,7 @@ class App extends Component {
         <div className="section section--websites" id="projects">
           <Explore />
         </div>
-        <hr className="line-section" id="contact-line"/>
+        {/* <hr className="line-section" id="contact-line"/> */}
         <div className="section section--contact" id="contact">
           <Contact />
         </div>

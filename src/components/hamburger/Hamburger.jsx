@@ -8,7 +8,6 @@ class Hamburger extends Component {
   }
 
   render() {
-    console.log('enter to the hamburger');
     return (
       <button className={`hamburger-container ${this.props.class}`}  onClick={this.changeStatus}>
         <div className="line"></div>

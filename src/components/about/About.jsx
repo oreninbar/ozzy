@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./About.css";
 import "aos/dist/aos.css"
 import AOS from "aos"
+import ProfileImage from '../../img/Oz.png'
 
 
 class About extends Component {
@@ -18,14 +19,11 @@ class About extends Component {
             I am passionately conscious that constant self improvement is
             necessary to achieve my ambitions. I graduated from The College of
             New Jersey (TCNJ) in May 2017 with a double major in Communication
-            Studies and Interactive Multimedia. Interactive Multimedia, a merge
-            of graphic design and computer science, laid the foundation to
-            cultivate my interest for the areas of Web Design and Development,
-            Video Production, Physical Computing, and Communication that I still
-            continue today.
+            Studies and Interactive Multimedia. 
           </p>
         </div>
-        <div className="img " data-aos="fade-left" data-aos-duration="1000"  data-aos-easing="ease-in-out" />
+        {/* <div className="img" data-aos="fade-left" data-aos-duration="1000"  data-aos-easing="ease-in-out" /> */}
+        <img src={ProfileImage} alt="profile-img" className="profile-img"data-aos="fade-left" data-aos-duration="1000"  data-aos-easing="ease-in-out"/>
       </div>
     );
   }
