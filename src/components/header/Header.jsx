@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from 'react-scroll';
 import "./Header.css";
 
 class Header extends Component {
@@ -8,9 +9,9 @@ class Header extends Component {
         <div className="header-primary">
           <div className="header_heading--main">ozzy</div>
           <div className="header_heading--sub">Where websites happens</div>
-          <a href="#projects-line" className="btn btn--white">
+          <Link to="projects-line" href="projects-line" className="btn btn--white">
             discover our websites
-          </a>
+          </Link>
         </div>
       </div>
     );

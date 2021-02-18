@@ -6,7 +6,7 @@ import ElevationImage from "../../img/elevation.png";
 import BenGurionImage from "../../img/benGurion.png";
 import HackerUImage from "../../img/hackerU.png";
 
-class Education extends Component {
+class Jobs extends Component {
   educationList = [
     {
       img: ElevationImage,
@@ -79,4 +79,4 @@ class Education extends Component {
   }
 }
 
-export default Education;
+export default Jobs;

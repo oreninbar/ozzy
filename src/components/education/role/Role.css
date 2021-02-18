@@ -1,6 +1,7 @@
 .role-container {
   display: flex;
   margin: 1rem;
+
 }
 
 .company-img {
@@ -8,22 +9,28 @@
   background-size: cover;
   background-position: center;
   margin: 1rem;
-  height: 4rem;
-  width: 4rem;
+  height: 6rem;
+  width: 6em;
 }
 
 .year {
+  font-size: 1.8rem;
   display: inline;
 }
 
 .role__title {
+
+  font-size: 1.8rem;
   display: inline-block;
 }
 .btn-description {
+  height: 2rem;
+  width: 2rem;
   display: block;
   outline: none;
   border: none;
   background: none;
+  font-size: 1.6rem;
 }
 
 .closee {
@@ -34,4 +41,9 @@
   visibility: visible;
   color: black;
   border: 2px;
+}
+
+.course-description{
+  font-weight: 700;
+  font-size: 1.5rem;
 }
