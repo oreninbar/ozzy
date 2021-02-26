@@ -15,7 +15,6 @@
   transition: all 0.5s ease-in-out;
   outline: none;
   cursor: pointer;
-
 }
 
 .line {
@@ -57,12 +56,20 @@
 }
 
 
-
-
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width:700px){
   .hamburger-container {
-    top: 4rem;
-    right: 4rem;
+    position: fixed;
 
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 8rem;
+    width: 8rem;
+    top: 6rem;
+    right: 8rem;
+    box-shadow: none;
+    border: 0.3rem solid white;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+    outline: none;
+    cursor: pointer;
   }
-}
+} 

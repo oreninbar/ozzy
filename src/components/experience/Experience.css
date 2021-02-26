@@ -1,9 +1,9 @@
 .education-container {
-  height: 100vh;
+  height: auto;
   width: 100vw;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 

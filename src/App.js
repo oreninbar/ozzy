@@ -8,6 +8,7 @@ import Hamburger from "./components/hamburger/Hamburger";
 import React, { Component } from "react";
 import { Skills } from "./components/skills/Skill";
 import Education from "./components/education/Education";
+import Experience from "./components/experience/Experience";
 
 class App extends Component {
   constructor() {
@@ -16,7 +17,6 @@ class App extends Component {
       btnFlage: false,
     };
   }
-
   onClickMenuButton = () => {
     let status = !this.state.btnFlage;
     this.setState({
@@ -36,17 +36,21 @@ class App extends Component {
         </div>
         <hr className="line-section" id="education-line"/>
         <div className="section section--education" id="education">
-          {/* <Education /> */}
+          <Education />
         </div>
         <hr className="line-section" id="skills-line"/>
         <div className="section section--skills" id="skills">
           <Skills />
         </div>
+        <hr className="line-section" id="experience-line"/>
+        <div className="section section--experience" id="experience">
+          <Experience />
+        </div>
         <hr className="line-section" id="projects-line"/>
         <div className="section section--websites" id="projects">
           <Explore />
         </div>
-        {/* <hr className="line-section" id="contact-line"/> */}
+        <hr className="line-section" id="contact-line"/>
         <div className="section section--contact" id="contact">
           <Contact />
         </div>
