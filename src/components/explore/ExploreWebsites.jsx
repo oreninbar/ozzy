@@ -15,7 +15,7 @@ class Explore extends Component {
           data-aos-easing="ease-in-out"
         >
           <div className="proj__brick--front proj__brick-side">
-            <h2 className="project-title">1</h2>
+            <h2 className="project-title"></h2>
           </div>
           <div className="proj__brick--back proj__brick-side">
             <div className="proj-technology">html css sql react</div>
@@ -31,7 +31,7 @@ class Explore extends Component {
           data-aos-easing="running"
         >
           <div className="proj__brick--front proj__brick-side">
-            <h2 className="project-title">2</h2>
+            <h2 className="project-title"></h2>
           </div>
           <div className="proj__brick--back proj__brick-side">
             <div className="proj-technology">html css sql react</div>
@@ -47,7 +47,7 @@ class Explore extends Component {
           data-aos-easing="ease-in-out"
         >
           <div className="proj__brick--front proj__brick-side">
-            <h2 className="project-title">3</h2>
+            <h2 className="project-title"></h2>
           </div>
           <div className="proj__brick--back proj__brick-side">
             <div className="proj-technology ">html css sql react</div>
@@ -63,7 +63,7 @@ class Explore extends Component {
           data-aos-easing="ease-in-out"
         >
           <div className="proj__brick--front proj__brick-side">
-            <h2 className="project-title">4</h2>
+            <h2 className="project-title"></h2>
           </div>
           <div className="proj__brick--back proj__brick-side">
             <div className="proj-technology">html css sql react</div>
@@ -80,7 +80,7 @@ class Explore extends Component {
           data-aos-easing="running"
         >
           <div className="proj__brick--front proj__brick-side">
-            <h2 className="project-title">5</h2>
+            <h2 className="project-title"></h2>
           </div>
           <div className="proj__brick--back proj__brick-side">
             <div className="proj-technology">html css sql react</div>
@@ -97,7 +97,7 @@ class Explore extends Component {
           data-aos-easing="ease-in-out"
         >
           <div className="proj__brick--front proj__brick-side">
-            <h2 className="project-title">6</h2>
+            <h2 className="project-title"></h2>
           </div>
           <div className="proj__brick--back proj__brick-side">
             <div className="proj-technology">html css sql react</div>

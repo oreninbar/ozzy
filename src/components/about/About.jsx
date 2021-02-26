@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./About.css";
 import "aos/dist/aos.css"
 import AOS from "aos"
-import ProfileImage from '../../img/Oz.png'
+import ProfileImage from '../../img/orench.png'
 
 
 class About extends Component {

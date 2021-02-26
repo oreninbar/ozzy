@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Link} from 'react-scroll';
+import { Link } from "react-scroll";
 import "./Menu.css";
 
 class DropdownMenu extends Component {
@@ -29,6 +29,13 @@ class DropdownMenu extends Component {
           onClick={this.close}
         >
           Skills
+        </Link>
+        <Link
+          to="experience"
+          className="experience dropdown-menu_categoty"
+          onClick={this.close}
+        >
+          Experience
         </Link>
         <Link
           to="projects-line"

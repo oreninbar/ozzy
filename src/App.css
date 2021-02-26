@@ -49,24 +49,27 @@ body {
 }
 
 .section {
-  margin-top: 15rem;
-  margin-bottom: 15rem;
-  height: auto;
+  height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-
-.section.section--contact {
+.section.section--education {
+  margin-top: -7rem;
+  margin-bottom: 5rem;
+  height: 100vh;
+}
+/* .section.section--contact {
   margin: 0;
   position: relative;
 }
 .section.section--education {
+  height: 80vh;
   margin-top: 3rem;
   position: relative;
-}
+} */
 
 /* @media only screen and (max-width: 700px) {
   html {
