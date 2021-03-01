@@ -36,7 +36,7 @@ class Experience extends Component {
     },
     {
       img: Quadro,
-      title: "quadro technology Ltd , ",
+      title: "quadro technology Ltd , project manager & safty inspector ",
       description:
         "Finished service as deputy company commander in Yahalom (special unit of the combat Engineering Corps), commanded on 40 soldiers",
       year: "2008-2010",

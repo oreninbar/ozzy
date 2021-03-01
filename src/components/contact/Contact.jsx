@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import axios from 'axios'
+
 import './Contact.css'
 
 class Contact extends Component {
@@ -18,6 +20,11 @@ class Contact extends Component {
     })
 
   };
+
+  sendContact=async() =>{
+    let contact= this.state
+    await axios.post(`/contact`,contact).then()
+  }
 
   render() {
     return (
@@ -53,9 +60,9 @@ class Contact extends Component {
             value={this.state.inputPhone}
             onChange={this.handleInput}
           />
-          <a href="" className="btn_contact_form btn">
+          <button onClick={this.sendContact} className="btn_contact_form btn">
             Get in touch
-          </a>
+          </button>
         </div>
       </div>
     );
