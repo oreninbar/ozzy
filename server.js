@@ -1,13 +1,14 @@
 const express=require ('express')
 const app=express()
 const api = require('./server/route/api')
-const bodyParser = require('body-parser')
 
-app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({ extended: false }))
 
 const mongoose = require('mongoose')//allows communication with mondoDB
-mongoose.connect("mongodb://localhost/ozzyDB",{useNewUrlParser:true})//here we define the our Data connection (here is in our localhost)
+mongoose.connect("mongodb://localhost/ozzyDB",{useNewUrlParser:true, useUnifiedTopology: true})//here we define the our Data connection (here is in our localhost)
+
+const bodyParser = require('body-parser')
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: false }))
 
 app.use(function (req, res, next) {
   res.header('Access-Control-Allow-Origin', '*')
