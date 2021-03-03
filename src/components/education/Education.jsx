@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./Education.css";
 import Role from "./role/Role";
-// import Data from "./data.json"
 import ElevationImage from "../../img/elevation.png";
 import BenGurionImage from "../../img/benGurion.png";
 import HackerUImage from "../../img/hackerU.png";

@@ -52,10 +52,10 @@ class Experience extends Component {
 
   render() {
     return (
-      <div className="education-container">
-        <h1 className="education-title">experience</h1>
+      <div className="experience-container">
+        <h1 className="experience-title">experience</h1>
         <br />
-        <div className="tree-container experienceList">
+        <div className="expereience-tree-container experienceList">
           <Role data={this.experienceList[0]} sender={'experience'} />
           <Role data={this.experienceList[1]} sender={'experience'}/>
           <Role data={this.experienceList[2]} sender={'experience'}/>

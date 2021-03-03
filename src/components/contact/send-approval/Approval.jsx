@@ -9,13 +9,13 @@ export default function Approval(props) {
   return (
     <div className="popup-container">
       <div className="img-wrapper">
-        <i class="far fa-thumbs-up"></i>
+        <i className="far fa-thumbs-up"></i>
       </div>
       <div className="title-wrapper">
         <h2 className="approval-title title2">I will contact you soon</h2>
       </div>
       <button className="popup-close-btn" onClick={changePopupStatus}>
-        <i class="fas fa-times"></i>
+        <i className="fas fa-times"></i>
       </button>
     </div>
   );

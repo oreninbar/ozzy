@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Approval from "./send-approval/Approval"
+import Approval from "./send-approval/Approval";
 
 import "./Contact.css";
 
@@ -68,7 +68,9 @@ export default function Contact() {
         <button onClick={sendContact} className="btn_contact_form btn">
           Get in touch
         </button>
-        {popup_status ? <Approval changePopupStatus={changePopupStatus} /> : null}
+        {popup_status ? (
+          <Approval changePopupStatus={changePopupStatus} />
+        ) : null}
       </div>
     </div>
   );

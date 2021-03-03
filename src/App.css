@@ -88,13 +88,9 @@ body {
     justify-content: ;
   }
 
-  .main-container {
+  .section.section--education {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    height: 100vh;
   }
-
-  .line-section {
-  }
-
-  .section {
-  }
-
 }

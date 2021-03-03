@@ -8,6 +8,7 @@ html {
   box-sizing: border-box;
 }
 .proj {
+  
   align-self: center;
   margin-top: 10rem;
   margin-bottom: 10rem;
@@ -21,6 +22,7 @@ html {
 }
 
 .proj__brick {
+  filter: grayscale(20%);
   font-family: "Montserrat", sans-serif;
   position: relative;
   font-size: 1.5rem;

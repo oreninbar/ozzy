@@ -3,9 +3,9 @@ const Schema=mongoose.Schema;
 
 
 const contactSchema=new Schema({
-    fullName:String,
-    email:String,
-    phoneNumber:String
+    inputName:String,
+    inputEmail:String,
+    inputPhone:String
 })
 
 

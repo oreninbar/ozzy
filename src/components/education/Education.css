@@ -1,61 +1,117 @@
 .education-container {
-  height: 100vh;
+  height: auto;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
-
-.education-title{
+.tree-container.education {
+  width: 50vw;
+  height: auto;
+}
+.education-title {
   font-size: 4rem;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-.interest-title{
+.interest-title {
   font-size: 2rem;
   letter-spacing: 2px;
   margin-bottom: 3.5rem;
   text-transform: uppercase;
 }
 
-i.img-fas{
-position: relative;
-background-color: whitesmoke;
-bottom: 2.5rem;
-left: 50%;
-transform: translateX(-50%);
-font-size: 4rem;
+i.img-fas {
+  position: relative;
+  background-color: whitesmoke;
+  bottom: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 4rem;
 }
 
-.hobbies-wrapper{
+.hobbies-wrapper {
   height: 10rem;
   width: 130rem;
-  align-content:space-around;
+  align-content: space-around;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-.box-hobbies{
+.box-hobbies {
   background-color: white;
-  outline: .2rem solid black;
+  outline: 0.2rem solid black;
   height: 20rem;
   width: 20rem;
 }
 
-.hobby-title{
+.hobby-title {
   text-transform: uppercase;
   text-align: center;
 }
 
-.hobby-description{
+.hobby-description {
   text-align: centerv;
   font-size: 1.3rem;
   margin: 1rem;
 }
 
+@media only screen and (max-width: 700px) {
+  .education-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-@media only screen and (max-width:700px){
+  .tree-container.education {
+    height: 80%;
+    width: 90vw;
+  }
 
+  .education-title {
+    font-size: 4rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .interest-title {
+    font-size: 2rem;
+    display: none;
+    letter-spacing: 2px;
+    margin-bottom: 3.5rem;
+    text-transform: uppercase;
+  }
+
+  i.img-fas {
+    position: relative;
+    background-color: whitesmoke;
+    bottom: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 4rem;
+  }
+
+  .box-hobbies {
+    display: none;
+    background-color: white;
+    outline: 0.2rem solid black;
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .hobby-title {
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .hobby-description {
+    text-align: centerv;
+    font-size: 1.3rem;
+    margin: 1rem;
+  }
 }
