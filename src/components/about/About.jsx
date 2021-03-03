@@ -22,7 +22,6 @@ class About extends Component {
             Studies and Interactive Multimedia. 
           </p>
         </div>
-        {/* <div className="img" data-aos="fade-left" data-aos-duration="1000"  data-aos-easing="ease-in-out" /> */}
         <img src={ProfileImage} alt="profile-img" className="profile-img"data-aos="fade-left" data-aos-duration="1000"  data-aos-easing="ease-in-out"/>
       </div>
     );

@@ -1,17 +1,25 @@
 .role-container {
   display: flex;
-  justify-content: flex-start;
-  /* align-items: center; */
+  justify-content: space-between;
+  align-items: flex-start;
   margin: 1rem;
 
 }
 .img-wrapper{
+  width: 12rem;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 
 }
+
+.content-wrapper{
+  position: relative;
+  width: 80%;
+}
+
+
 .company-img {
   background-repeat: no-repeat;
   background-size: cover;

@@ -23,7 +23,7 @@ export default function Role(props) {
           className="course-link"
           target="_blank"
         >
-          {props.sender==="education" ?<i class="fas fa-link"></i>: ''}
+          {props.sender==="education" ?<i className="fas fa-link"></i>: ''}
         </a>
         <button
           className="btn-description"

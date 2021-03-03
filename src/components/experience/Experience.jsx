@@ -36,7 +36,7 @@ class Experience extends Component {
     },
     {
       img: Quadro,
-      title: "quadro technology Ltd , ",
+      title: "quadro technology Ltd , project manager & safty inspector ",
       description:
         "Finished service as deputy company commander in Yahalom (special unit of the combat Engineering Corps), commanded on 40 soldiers",
       year: "2008-2010",
@@ -52,10 +52,10 @@ class Experience extends Component {
 
   render() {
     return (
-      <div className="education-container">
-        <h1 className="education-title">experience</h1>
+      <div className="experience-container">
+        <h1 className="experience-title">experience</h1>
         <br />
-        <div className="tree-container experienceList">
+        <div className="expereience-tree-container experienceList">
           <Role data={this.experienceList[0]} sender={'experience'} />
           <Role data={this.experienceList[1]} sender={'experience'}/>
           <Role data={this.experienceList[2]} sender={'experience'}/>

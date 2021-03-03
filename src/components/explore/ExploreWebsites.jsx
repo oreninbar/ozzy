@@ -18,10 +18,22 @@ class Explore extends Component {
             <h2 className="project-title"></h2>
           </div>
           <div className="proj__brick--back proj__brick-side">
-            <div className="proj-technology">html css sql react</div>
-            <button className="btn proj-link">
-              check it!<i class="fas fa-link"></i>
-            </button>
+            <h2 className="proj-technology-description">
+              Customer relationship managment
+            </h2>
+            <hr className="line-seperator" />
+            <h3 className="proj-technology">
+              JS, Nodejs, Express, Axios, MongoDB, HTML, CSS, Mobx
+            </h3>
+            <a
+              href="https://github.com/oreninbar/CRM-REACT-MOBX"
+              rel="crm"
+              target="_blank"
+              className="project-link"
+            >
+              {" "}
+              <i className="fas fa-link"></i>
+            </a>
           </div>
         </div>
         <div
@@ -34,10 +46,18 @@ class Explore extends Component {
             <h2 className="project-title"></h2>
           </div>
           <div className="proj__brick--back proj__brick-side">
-            <div className="proj-technology">html css sql react</div>
-            <button className="btn proj-link">
-              <i class="fas fa-link"></i>
-            </button>
+            <h2 className="proj-technology-description">Game Catch the Frog</h2>
+            <hr className="line-seperator" />
+            <h3 className="proj-technology">JS, HTML, CSS</h3>
+            <a
+              href="https://github.com/oreninbar/movix"
+              rel="movix"
+              target="_blank"
+              className="project-link"
+            >
+              {" "}
+              <i className="fas fa-link"></i>
+            </a>
           </div>
         </div>
         <div
@@ -50,10 +70,21 @@ class Explore extends Component {
             <h2 className="project-title"></h2>
           </div>
           <div className="proj__brick--back proj__brick-side">
-            <div className="proj-technology ">html css sql react</div>
-            <button className="btn proj-link">
-              <i class="fas fa-link"></i>
-            </button>
+            <h2 className="proj-technology-description">Movie selector with external API and localStorage</h2>
+            <hr className="line-seperator" />
+            <h3 className="proj-technology">
+              React, LocalStorage, Nodejs, Express, Axios, MongoDB, HTML, CSS,
+              Mobx
+            </h3>
+            <a
+              href="https://github.com/oreninbar/movix"
+              rel="movix"
+              target="_blank"
+              className="link"
+            >
+              {" "}
+              <i className="fas fa-link"></i>
+            </a>
           </div>
         </div>
         <div
@@ -66,10 +97,21 @@ class Explore extends Component {
             <h2 className="project-title"></h2>
           </div>
           <div className="proj__brick--back proj__brick-side">
-            <div className="proj-technology">html css sql react</div>
-            <button className="btn proj-link">
-              <i class="fas fa-link"></i>
-            </button>
+            <h2 className="proj-technology-description">Paycheck calculator</h2>
+            <hr className="line-seperator" />
+            <h3 className="proj-technology">
+              ReactJS, Nodejs, Express, Axios, SQL, SASS, Webpack, HTML, CSS,
+              Mobx
+            </h3>
+            <a
+              href="https://github.com/oreninbar/Net-Payro"
+              rel="movix"
+              target="_blank"
+              className="project-link"
+            >
+              {" "}
+              <i className="fas fa-link"></i>
+            </a>
           </div>
         </div>
         <div
@@ -83,10 +125,20 @@ class Explore extends Component {
             <h2 className="project-title"></h2>
           </div>
           <div className="proj__brick--back proj__brick-side">
-            <div className="proj-technology">html css sql react</div>
-            <button className="btn proj-link">
-              <i class="fas fa-link"></i>
-            </button>
+            <h2 className="proj-technology-description">Self website</h2>
+            <hr className="line-seperator" />
+            <h3 className="proj-technology">
+              React, JS, Nodejs, Express, Axios, MongoDB, HTML, CSS
+            </h3>
+            <a
+              href="https://github.com/oreninbar/ozzy"
+              rel="selfwebsite"
+              target="_blank"
+              className="project-link"
+            >
+              {" "}
+              <i className="fas fa-link"></i>
+            </a>
           </div>
         </div>
         <div
@@ -100,8 +152,20 @@ class Explore extends Component {
             <h2 className="project-title"></h2>
           </div>
           <div className="proj__brick--back proj__brick-side">
-            <div className="proj-technology">html css sql react</div>
-            <button className="btn proj-link">check it!</button>
+            <h2 className="proj-technology-description">ATM</h2>
+            <hr className="line-seperator" />
+            <h3 className="proj-technology">
+              React, JS, Nodejs, Express, Axios, MongoDB, HTML, CSS, Mobx
+            </h3>
+            <a
+              href="https://github.com/oreninbar/ATM"
+              rel="movix"
+              target="_blank"
+              className="project-link"
+            >
+              {" "}
+              <i className="fas fa-link"></i>
+            </a>
           </div>
         </div>
       </div>

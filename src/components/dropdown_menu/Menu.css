@@ -1,6 +1,5 @@
 .dropdown-menu-container {
   position: fixed;
-  display: flex;
   margin-top: 2rem;
   justify-content: center;
   align-items: center;

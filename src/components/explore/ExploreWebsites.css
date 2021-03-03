@@ -8,6 +8,7 @@ html {
   box-sizing: border-box;
 }
 .proj {
+  
   align-self: center;
   margin-top: 10rem;
   margin-bottom: 10rem;
@@ -21,6 +22,7 @@ html {
 }
 
 .proj__brick {
+  filter: grayscale(20%);
   font-family: "Montserrat", sans-serif;
   position: relative;
   font-size: 1.5rem;
@@ -50,13 +52,13 @@ html {
 }
 
 .proj__brick--front {
-  background-color: #37dceb;
   font-size: 2rem;
 }
 
 .proj__brick--back {
   transform: rotateY(180deg);
-  background-color: #0ad19f;
+  background-image: linear-gradient(135deg, #37dceb, #3d82b1);
+  color: #000000;
 }
 
 .proj__brick:hover .proj__brick--front {
@@ -80,7 +82,9 @@ html {
   font-family: "Montserrat", sans-serif;
   margin: 2rem;
   padding: 1rem;
-  background-image: linear-gradient(135deg, #37dceb, #104349, #25929e, #3d82b1);
+  background-image: linear-gradient(135deg, #37dceb, #3d82b1);
+
+  /* background-image: linear-gradient(135deg, #37dceb, #104349, #25929e, #3d82b1); */
   background-clip: text;
   color: transparent;
   text-transform: uppercase;
@@ -115,7 +119,7 @@ html {
 }
 
 .proj3 .proj__brick--front {
-  background-image: url(../../img/hangman.png);
+  background-image: url(../../img/movix.PNG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -155,6 +159,15 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.line-seperator {
+  width: 80%;
+  height: 0.3rem;
+  margin: 0.7rem;
+}
+
+.project-link{
+  margin: 1rem;
 }
 
 @media only screen and (max-width: 700px) {

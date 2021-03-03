@@ -1,0 +1,59 @@
+  
+  .Landing_page-container {
+    color: aliceblue;
+    background-color: #1e272e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 5rem;
+    font-family: Arial;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .loading {
+      color:#fff;
+      position: relative;
+  }
+  
+  .loading span{
+      display: inline-block;
+      animation: loading 2s infinite linear;  
+  }
+  
+  .loading span:nth-child(1){
+      animation-delay: 0.1s;
+  }
+  .loading span:nth-child(2){
+      animation-delay: 0.3s;
+  }
+  .loading span:nth-child(3){
+      animation-delay: 0.5s;
+  }
+  .loading span:nth-child(4){
+      animation-delay: 0.7s;
+  }
+  .loading span:nth-child(5){
+      animation-delay: 0.9s;
+  }
+  .loading span:nth-child(6){
+      animation-delay: 1.1s;
+  }
+  .loading span:nth-child(7){
+      animation-delay: 1.3s;
+  }
+  .loading span:nth-child(8){
+      animation-delay: 1.5s;
+  }
+  .loading span:nth-child(9){
+      animation-delay: 1.7s;
+  }
+  
+  
+  
+  @keyframes loading {
+    0%,80%{transform: rotate(360deg);}
+  
+  }
+  
